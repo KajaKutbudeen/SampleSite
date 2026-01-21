@@ -1,7 +1,7 @@
 .Container{
     background-color: rgb(31, 41, 54);
     color: white;
-    font-family:"Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     display: flex;
     width: auto;
     height: 250px;
@@ -10,12 +10,10 @@
     gap: 50px;
 }
 
-
-
 .TopHead{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .Headlogo{
@@ -51,35 +49,30 @@
 }
 
 .pic{
-    padding-right: 20px;
+    /* Center the image in the empty space */
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    
+    /* Control the size so it fits */
+    height: 140px; 
+
+    /* Pull it UP to float it like your local version */
+    margin-top: -30px; 
+    
+    /* Push the bottom boundary down */
+    margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * {
     margin: 0%;
 }
 
+/* --- FONT FIXES --- */
+/* Note: I changed backslashes "\" to forward slashes "/" */
 
 @font-face {
     font-family: "Exo2";
-    src: url("./fonts/Exo_2\,Noto_Sans_JP\,Roboto/Exo2") format("woff2");
+    src: url("./fonts/Exo_2,Noto_Sans_JP,Roboto/Exo2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -87,7 +80,7 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url("./fonts/Exo_2\,Noto_Sans_JP\,Roboto/Roboto") format("woff2");
+    src: url("./fonts/Exo_2,Noto_Sans_JP,Roboto/Roboto") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -95,7 +88,7 @@
 
 @font-face {
     font-family: "NotoSansJP";
-    src: url("./fonts/Exo_2\,Noto_Sans_JP\,Roboto/Noto_Sans_JP") format("woff2");
+    src: url("./fonts/Exo_2,Noto_Sans_JP,Roboto/Noto_Sans_JP") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
